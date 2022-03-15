@@ -62,3 +62,29 @@ footer {
     font-weight: bold;
 
  }
+
+ @media screen and (max-width:720px) {
+
+    header h1{
+        width: auto;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .principal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cuadro1, .cuadro2{
+    padding: 10px;
+    margin: 10px 24px;
+    width: auto;
+    height: auto;
+    }
+
+    footer{
+        width: 100%;
+    }
+    
+}
