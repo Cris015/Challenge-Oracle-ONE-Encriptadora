@@ -27,6 +27,6 @@ function desencriptar(){
 
 }
 
-copiar.onclick = copiarTexto;
-enc.onclick = encriptar;
-desenc.onclick = desencriptar;
+copiar.onclick = copiarTexto();
+enc.onclick = encriptar();
+desenc.onclick = desencriptar();
