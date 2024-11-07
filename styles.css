@@ -1,89 +1,109 @@
- @media screen and (min-width:420px) {
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins";
+}
 
-    *{
-        padding: 0%;
-        margin: 0%;
-        font-family: "Poppins";
-    }
+body{
+    background-color: #181447;
+}
 
-    body{
-        background-color: #181447;
-    }
+header h1{
+    color: white;
+    width: auto;
+    font-size: 1.25rem;
+    margin: 0 15px 50px 15px;
+    padding-top: 80px;
+    text-align: center;
+}
 
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuadro1, .cuadro2{
+    background-color: #d5e0e9;
+    margin: 40px 15px;
+    width: auto;
+    height: auto;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+label, input{
+    margin: 10px;
+}
+
+label{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #181447;
+}
+
+input[type="text"]{
+    padding-left: 10px;
+}
+
+.campotexto{
+    width: 90%;
+    height: 25px;
+}
+
+.boton1, .boton2, .boton3{
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.boton3{
+    background-color: #38ce38;
+    color: white;
+}
+
+.boton1, .boton2, .boton3, .campotexto{
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+
+ }
+ 
+ @media screen and (max-width:320px) {
     header h1{
-        color: white;
-        width: auto;
-        font-size: 20px;
-        margin-bottom: 50px;
-        padding-top: 80px;
-        text-align: center;
+        font-size: 0.80rem;
     }
+ }
+
+ @media screen and (min-width:570px) {
 
     .principal{
         display: flex;
+        flex-direction: initial;
         justify-content: space-around;
     }
 
     .cuadro1, .cuadro2{
-        background-color: #d5e0e9;
         margin: 100px 15px;
         width: 400px;
-        height: auto;
-        gap: 10px;
-        border-radius: 13px;
-        padding: 10px;
-    }
-
-    label, input{
-        margin: 10px;
     }
 
     label{
         font-size: 20px;
-        font-weight: bold;
-        color: #181447;
-    }
-
-    input{
-        padding-left: 10px;
-    }
-
-    .campotexto{
-        width: 90%;
-        height: 25px;
-    }
-
-    .boton1, .boton2, .boton3{
-        width: 130px;
-        height: 40px;
-        font-weight: bold;
-        border-radius: 50px;
-    }
-
-    .boton3{
-        background-color: #38ce38;
-        color: white;
-    }
-
-    .boton1, .boton2, .boton3, .campotexto{
-        border: none;
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position:fixed;
-        bottom:0px;
-        height:50px;
-        width:100%;
-        background: black;
-        color: white;
-        font-size: 1rem;
-        font-weight: bold;
-    
-     }
-    
+    }    
 }
 
 @media screen and (min-width:1000px) {
