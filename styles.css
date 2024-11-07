@@ -1,16 +1,103 @@
-*{
-    padding: 0%;
-    margin: 0%;
-}
-body{
-    background-color: lightgrey;
+ @media screen and (min-width:420px) {
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: "Poppins";
+    }
+
+    body{
+        background-color: #181447;
+    }
+
+    header h1{
+        color: white;
+        width: auto;
+        font-size: 20px;
+        margin-bottom: 50px;
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .principal{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cuadro1, .cuadro2{
+        background-color: #d5e0e9;
+        margin: 100px 15px;
+        width: 400px;
+        height: auto;
+        gap: 10px;
+        border-radius: 13px;
+        padding: 10px;
+    }
+
+    label, input{
+        margin: 10px;
+    }
+
+    label{
+        font-size: 20px;
+        font-weight: bold;
+        color: #181447;
+    }
+
+    input{
+        padding-left: 10px;
+    }
+
+    .campotexto{
+        width: 90%;
+        height: 25px;
+    }
+
+    .boton1, .boton2, .boton3{
+        width: 130px;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 50px;
+    }
+
+    .boton3{
+        background-color: #38ce38;
+        color: white;
+    }
+
+    .boton1, .boton2, .boton3, .campotexto{
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        bottom:0px;
+        height:50px;
+        width:100%;
+        background: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+    
+     }
+    
 }
 
-h1{
-    padding: 15px;
-    text-align: center;
-}
+@media screen and (min-width:1000px) {
+    
+    header h1{
+        font-size: 2rem;
+    }
+    
+    .principal{
+        width: 1000px;
+        margin: 0 auto;
+    }
 
+<<<<<<< HEAD
 .principal{
     display: flex;
     justify-content: center;
@@ -88,3 +175,9 @@ footer {
     }
     
 }
+=======
+    .campotexto{
+        height: 35px;
+    }
+}
+>>>>>>> master

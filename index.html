@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Encriptador de texto</title>
 </head>
 <body>
@@ -13,26 +14,26 @@
         <h1>Encriptador/Desencriptador</h1>
     </header>
     <!-- este dv es para capturar el campo para el encriptado y el de copiar en uno y mejorar su disenho en css -->
-    <div class="principal">
-            <!-- la clase cuadro1 es para el campo de encriptacion -->
-            <div class="cuadro1">
-                <label for="encriptado">Escribe aqui tu texto.</label> <br>
-                <input id="encriptado" class="campotexto" type="text" placeholder="favor de escribir en minusculas"> <br>
-                <div class="botones">
-                    <input id="boton1" class="boton1" type="submit" value="Encriptar">
-                    <input id="boton2" class="boton2" type="submit" value="Desencriptar">
-                </div>
+    <main class="principal">
+        <!-- la clase cuadro1 es para el campo de encriptacion -->
+        <div class="cuadro1">
+            <label for="encriptado">Escribe aqui tu texto.</label> <br>
+            <input id="encriptado" class="campotexto" type="text" placeholder="Favor de escribir en minusculas"> <br>
+            <div class="botones">
+                <input id="boton1" class="boton1" type="submit" value="Encriptar">
+                <input id="boton2" class="boton2" type="submit" value="Desencriptar">
             </div>
-            <!-- la clase cuadro2 es para el campo de copiado -->
-            <div class="cuadro2">
-                <label for="copiadora">Aqui su resultado.</label> <br>
-                <input id="campo" class="campotexto" type="text" readonly> <br>
-                <input id="boton3" class="boton3" type="submit" value="copiar">
-            </div>
-    </div>
+        </div>
+        <!-- la clase cuadro2 es para el campo de copiado -->
+        <div class="cuadro2">
+            <label for="copiadora">Aqui su resultado.</label> <br>
+            <input id="campo" class="campotexto" type="text" readonly> <br>
+            <input id="boton3" class="boton3" type="submit" value="Copiar">
+        </div>
+    </main>
 
     <footer>
-        <p>Programa hecho por: Cristian Israel Castillo</p>
+        <p>&copy; Programa hecho por: Cristian Israel Castillo</p>
     </footer>
 
     <script src="script.js"></script>
